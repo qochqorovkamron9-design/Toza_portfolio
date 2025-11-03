@@ -1,11 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "../Yangi"
 		},
 		{
-			"path": "../yangi papka"
+			"path": "../Portfoli01"
+		},
+		{
+			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Kamron"
+	}
 }

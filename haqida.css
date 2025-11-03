@@ -1,0 +1,116 @@
+/* Umumiy sozlamalar */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+  }
+  
+  /* Yuqori qism — navbar */
+  .navbar {
+    text-align: center;
+    background: white;
+    padding: 40px 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar header {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 8px;
+  }
+  
+  .navbar p {
+    color: #64748b;
+    font-size: 1.05rem;
+    margin: 0;
+  }
+  
+  /* Dizaynlar asosiy konteyner */
+  .dizaynlar {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  /* Har bir dizayn bo‘limi */
+  .dizaynlar > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  .dizaynlar > div:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  }
+  
+  /* Chap tomon (matn) */
+  .left {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .left h2 {
+    font-size: 1.8rem;
+    margin-bottom: 14px;
+    color: #1e293b;
+  }
+  
+  .left p {
+    color: #64748b;
+    font-size: 1.05rem;
+  }
+  
+  /* O‘ng tomon (rasm) */
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9fafb;
+  }
+  
+  .right img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.12);
+    transition: transform 0.3s ease;
+  }
+  
+  .right img:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Ikkinchi dizayn — teskari tartibda */
+  .ikkinchi {
+    flex-direction: row-reverse;
+  }
+  
+  /* Mobilga moslashtirish */
+  @media (max-width: 900px) {
+    .dizaynlar > div {
+      flex-direction: column;
+    }
+  
+    .left, .right {
+      padding: 24px;
+      text-align: center;
+    }
+  
+    .right img {
+      max-width: 80%;
+    }
+  }
+  
