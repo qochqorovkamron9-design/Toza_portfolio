@@ -7,7 +7,7 @@ body {
     line-height: 1.6;
   }
   
-  /* Yuqori qism — navbar */
+
   .navbar {
     text-align: center;
     background: white;
@@ -28,7 +28,7 @@ body {
     margin: 0;
   }
   
-  /* Dizaynlar asosiy konteyner */
+
   .dizaynlar {
     max-width: 1100px;
     margin: 60px auto;
@@ -38,7 +38,6 @@ body {
     gap: 60px;
   }
   
-  /* Har bir dizayn bo‘limi */
   .dizaynlar > div {
     display: flex;
     align-items: center;
@@ -55,7 +54,7 @@ body {
     box-shadow: 0 10px 24px rgba(0,0,0,0.08);
   }
   
-  /* Chap tomon (matn) */
+
   .left {
     flex: 1;
     padding: 40px;
@@ -72,7 +71,7 @@ body {
     font-size: 1.05rem;
   }
   
-  /* O‘ng tomon (rasm) */
+
   .right {
     flex: 1;
     display: flex;
@@ -92,13 +91,12 @@ body {
   .right img:hover {
     transform: scale(1.03);
   }
-  
-  /* Ikkinchi dizayn — teskari tartibda */
+
   .ikkinchi {
     flex-direction: row-reverse;
   }
   
-  /* Mobilga moslashtirish */
+
   @media (max-width: 900px) {
     .dizaynlar > div {
       flex-direction: column;
