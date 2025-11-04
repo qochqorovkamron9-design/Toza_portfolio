@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #e6ecff);
+    margin: 0;
+    padding: 0;
+    color: #1e293b;
+  }
+
+  .navbar {
+    text-align: center;
+    background: white;
+    padding: 40px 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 20px 20px;
+  }
+
+  .navbar h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 8px;
+  }
+
+  .navbar p {
+    color: #64748b;
+    font-size: 1.05rem;
+    margin: 0;
+  }
+
+  .three-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 60px 10%;
+  }
+
+  .first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .first:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .first img {
+    width: 120px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  .first h1 {
+    font-size: 1.6rem;
+    color: #334155;
+    margin: 0;
+  }
+  .first p {
+    color: #64748b;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .second:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .second img {
+    width: 120px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  .second h1 {
+    font-size: 1.6rem;
+    color: #334155;
+    margin: 0;
+  }
+  .second p {
+    color: #64748b;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .third:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .third img {
+    width: 120px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  .third h1 {
+    font-size: 1.6rem;
+    color: #334155;
+    margin: 0;
+  }
+  .third p {
+    color: #64748b;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
